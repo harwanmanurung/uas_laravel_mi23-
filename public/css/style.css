@@ -1,0 +1,36 @@
+/* Container kartu produk */
+.glass-card {
+    background: rgba(255, 255, 255, 0.2); /* Transparansi putih */
+    backdrop-filter: blur(15px); /* Efek blur di belakang kartu */
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+/* Efek hover saat mouse di atas kartu */
+.glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-glass {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+}
+
+.btn-glass:hover {
+    background: white;
+    color: #333;
+}
