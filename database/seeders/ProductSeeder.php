@@ -9,25 +9,25 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // Menambah data produk baju satu per satu
+        // Menambah data produk perabotan rumah tangga satu per satu
         Product::create([
-            'nama_produk' => 'Kaos Oversize Hitam',
-            'deskripsi_produk' => 'Bahan cotton combed 24s premium, nyaman dan adem dipakai seharian.'
+            'nama_produk' => 'Sofa Velvet Minimalis',
+            'deskripsi_produk' => 'Sofa premium dengan bahan kain velvet lembut dan rangka kayu solid, sangat elegan untuk ruang tamu modern.'
         ]);
 
         Product::create([
-            'nama_produk' => 'Kemeja Flanel Kotak',
-            'deskripsi_produk' => 'Kemeja flanel motif kotak-kotak dengan bahan lembut, cocok untuk gaya kasual.'
+            'nama_produk' => 'Vas Keramik Estetik',
+            'deskripsi_produk' => 'Vas dekoratif bahan keramik handmade dengan tekstur unik, cocok untuk hiasan meja atau sudut ruangan.'
         ]);
 
         Product::create([
-            'nama_produk' => 'Jaket Hoodie Polos',
-            'deskripsi_produk' => 'Hoodie bahan fleece tebal dengan pilihan warna estetik dan jahitan rapi.'
+            'nama_produk' => 'Jam Dinding Kayu Retro',
+            'deskripsi_produk' => 'Jam dinding desain klasik dari kayu asli dengan mesin senyap (silent movement), pas untuk dekorasi rumah.'
         ]);
 
         Product::create([
-            'nama_produk' => 'Celana Chino Slim Fit',
-            'deskripsi_produk' => 'Celana chino bahan stretch yang nyaman digunakan untuk acara formal maupun santai.'
+            'nama_produk' => 'Lemari Pakaian 3 Pintu',
+            'deskripsi_produk' => 'Lemari kapasitas besar dengan material MDF grade A, dilengkapi cermin panjang dan gantungan baju ekstra.'
         ]);
     }
 }

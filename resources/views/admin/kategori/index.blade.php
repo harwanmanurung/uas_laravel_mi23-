@@ -12,7 +12,7 @@
                     <a href="/katalog" class="list-group-item list-group-item-action bg-transparent text-white border-bottom border-white border-opacity-10 py-3 opacity-75">
                         <i class="bi bi-box-seam me-2"></i> Produk
                     </a>
-                    <a href="/admin/kategori" class="list-group-item list-group-item-action bg-info bg-opacity-25 text-info fw-bold border-0 rounded-3 my-2 shadow-sm">
+                    <a href="/admin/kategori" class="list-group-item list-group-item-action bg-warning bg-opacity-25 text-warning fw-bold border-0 rounded-3 my-2 shadow-sm">
                         <i class="bi bi-tags-fill me-2"></i> Kategori
                     </a>
                     <a href="#" class="list-group-item list-group-item-action bg-transparent text-white border-bottom border-white border-opacity-10 py-3 opacity-75">
@@ -36,16 +36,16 @@
                 <div class="d-flex justify-content-between align-items-center mb-5">
                     <div>
                         <h2 class="fw-bold text-white mb-0" style="letter-spacing: 1px;">Manajemen Kategori</h2>
-                        <p class="text-info small mb-0 opacity-75">Kelola semua kategori produk toko baju Anda</p>
+                        <p class="text-warning small mb-0 opacity-75">Kelola semua kategori produk toko perabotan Anda</p>
                     </div>
-                    <a href="/admin/kategori/tambah" class="btn btn-info px-4 py-2 fw-bold rounded-pill shadow-sm text-uppercase" style="font-size: 0.8rem;">
+                    <a href="/admin/kategori/tambah" class="btn btn-warning px-4 py-2 fw-bold rounded-pill shadow-sm text-uppercase" style="font-size: 0.8rem;">
                         <i class="bi bi-plus-lg me-1"></i> Tambah Kategori
                     </a>
                 </div>
 
                 <div class="table-responsive">
                     <table class="table table-hover align-middle text-white">
-                        <thead class="text-info small text-uppercase" style="letter-spacing: 1.5px; border-bottom: 2px solid rgba(13, 202, 240, 0.2);">
+                        <thead class="text-warning small text-uppercase" style="letter-spacing: 1.5px; border-bottom: 2px solid rgba(255, 193, 7, 0.2);">
                             <tr>
                                 <th class="pb-3 ps-4" width="70%">Nama Kategori</th>
                                 <th class="pb-3 text-center" width="30%">Tindakan</th>
@@ -56,8 +56,8 @@
                             <tr style="transition: all 0.3s; border-bottom: 1px solid rgba(255,255,255,0.05);">
                                 <td class="py-4 ps-4">
                                     <div class="d-flex align-items-center">
-                                        <div class="rounded-circle bg-info bg-opacity-10 p-2 me-3">
-                                            <i class="bi bi-bookmark-fill text-info"></i>
+                                        <div class="rounded-circle bg-warning bg-opacity-10 p-2 me-3">
+                                            <i class="bi bi-bookmark-fill text-warning"></i>
                                         </div>
                                         <span class="fw-bold" style="font-size: 1.1rem;">{{ $cat->nama_kategori }}</span>
                                     </div>

@@ -12,34 +12,34 @@
             @endif
 
             <div class="text-center mb-4">
-                <h2 class="fw-bold text-info text-uppercase" style="letter-spacing: 2px;">Selamat Datang</h2>
-                <p class="text-white opacity-75 small">Masuk ke akun Fashion Hub Anda</p>
+                <h2 class="fw-bold text-warning text-uppercase" style="letter-spacing: 2px;">Selamat Datang</h2>
+                <p class="text-white opacity-75 small">Masuk ke Akun Home Center Anda</p>
             </div>
 
             <form action="{{ route('login.post') }}" method="POST">
                 @csrf
                 
                 <div class="mb-3">
-                    <label class="form-label text-info fw-bold small text-uppercase">Email</label>
-                    <input type="email" name="email" class="form-control bg-transparent text-white border-info border-opacity-50" 
+                    <label class="form-label text-warning fw-bold small text-uppercase">Email</label>
+                    <input type="email" name="email" class="form-control bg-transparent text-white border-warning border-opacity-50" 
                            placeholder="Masukkan Email" required style="border-radius: 10px;">
                 </div>
 
                 <div class="mb-4">
-                    <label class="form-label text-info fw-bold small text-uppercase">Password</label>
-                    <input type="password" name="password" class="form-control bg-transparent text-white border-info border-opacity-50" 
+                    <label class="form-label text-warning fw-bold small text-uppercase">Password</label>
+                    <input type="password" name="password" class="form-control bg-transparent text-white border-warning border-opacity-50" 
                            placeholder="Masukkan Password" required style="border-radius: 10px;">
                 </div>
 
                 <div class="d-grid gap-2 mt-4">
-                    <button type="submit" class="btn btn-info rounded-pill py-2 fw-bold shadow">
+                    <button type="submit" class="btn btn-warning rounded-pill py-2 fw-bold shadow">
                         MASUK SEKARANG
                     </button>
                 </div>
 
                 <div class="text-center mt-3">
                     <p class="small text-white opacity-50">Belum punya akun? 
-                        <a href="{{ route('register') }}" class="text-info text-decoration-none fw-bold">Daftar di sini</a>
+                        <a href="{{ route('register') }}" class="text-warning text-decoration-none fw-bold">Daftar di sini</a>
                     </p>
                 </div>
             </form>

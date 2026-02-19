@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fashion Hub - Katalog</title>
+    <title>Home Center - Katalog Perabotan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            /* Background Toko Baju yang Estetik */
+            /* Background Interior Perabotan yang Mewah (Sofa Hijau) */
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                        url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070');
+                        url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070');
             
-            /* DIBUAT 100% SUPAYA BG TERLIHAT LUAS/JAUH */
-            background-size: 100% 100%; 
+            /* DIBUAT COVER SUPAYA GAMBAR PAS DI LAYAR */
+            background-size: cover; 
             background-attachment: fixed;
             background-position: center;
             min-height: 100vh;
@@ -28,27 +28,26 @@
             color: white; 
         }
 
-        /* --- TAMBAHAN BARU SUPAYA INPUT TIDAK HITAM --- */
-        
-        /* Mengubah warna teks saat mengetik di input jadi putih */
+        /* Styling Input agar tidak hitam saat diketik */
         .form-control {
             color: white !important;
+            background-color: rgba(255, 255, 255, 0.1) !important;
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
         }
 
-        /* Mengubah warna placeholder (tulisan bantuan) jadi putih pudar */
         .form-control::placeholder {
             color: rgba(255, 255, 255, 0.5) !important;
         }
 
-        /* Efek saat kotak input diklik (fokus) */
+        /* Efek saat kotak input diklik - WARNA EMAS/GOLD */
         .form-control:focus {
             background-color: rgba(255, 255, 255, 0.15) !important;
-            border-color: #0dcaf0 !important; /* Warna biru cyan */
+            border-color: #ffc107 !important; 
             color: white !important;
-            box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+            box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
         }
 
-        /* Menghilangkan background putih bawaan browser saat input aktif */
+        /* Menghilangkan background putih bawaan browser */
         input:-webkit-autofill,
         input:-webkit-autofill:hover, 
         input:-webkit-autofill:focus {
